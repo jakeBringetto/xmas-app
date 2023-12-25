@@ -15,7 +15,7 @@ function App() {
           Wooden Spoon
         </p>
         <img src= {card} className="card"/>
-        <button className= "my-button" onClick={() => alert('I have an gift card to forward via email. God Jul!')}>Press Me</button>
+        <button className= "my-button" onClick={() => alert('I have a gift card to forward via email. God Jul!')}>Press Me</button>
       </header>
       <p>app by Jake Bringetto</p>
     </div>
