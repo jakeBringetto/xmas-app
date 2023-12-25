@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import spoon from './spoons.jpeg';
+import card from './card.jpeg';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
+      <p className="xmas">
+        Merry Christmas!
+      </p>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src= {spoon} className="App-logo" alt="logo" />
+        <p className="spoon">
+          Wooden Spoon
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src= {card} className="card"/>
+        <button className= "my-button" onClick={() => alert('I have an gift card to forward via email. God Jul!')}>Press Me</button>
       </header>
+      <p>app by Jake Bringetto</p>
     </div>
   );
 }

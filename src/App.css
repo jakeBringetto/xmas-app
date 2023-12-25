@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  margin-top: 100px;
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -35,4 +36,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.spoon {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+}
+
+.card {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.xmas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+}
+
+.my-button {
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: blue;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 20px system-ui;
+  padding: 10px 70px 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+  border-image: initial;
+  margin-bottom: 50px;
 }
